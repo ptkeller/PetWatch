@@ -6,15 +6,15 @@ module.exports = React.createClass({
   <div id='signup'>
     <h1>signup</h1>
     <form className="signupForm">
-      <input type='text' name="username"/>
-      <input type="password" name="password"/>
-      <input type="text" name="email"/>
-      <input type='text' name="address"/>
-      <input type="text" name="phone"/>
-      <input type="text" name="firstname"/>
-      <input type='text' name="lastname"/>
-      <input type="text" name="description"/>
-      <input type="text" name="picUrl"/>
+      username:<input type='text' name="username"/><br/>
+      password:<input type="password" name="password"/><br/>
+      email:<input type="text" name="email"/><br/>
+      address:<input type='text' name="address"/><br/>
+      phone:<input type="text" name="phone"/><br/>
+      first name:<input type="text" name="firstname"/><br/>
+      last name:<input type='text' name="lastname"/><br/>
+      description:<input type="text" name="description"/><br/>
+      picture:<input type="text" name="picUrl"/><br/>
       <button>signup</button>
     </form>
     <a href="#/login">Already have an account? <strong>Signin</strong> ...</a>
